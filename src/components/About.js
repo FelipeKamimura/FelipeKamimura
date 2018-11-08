@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import RBCarousel from "react-bootstrap-carousel";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
@@ -10,7 +10,7 @@ import Post from './ui/Post';
 
 /*estilo para o carrosel*/ 
 
-const styles = {height: 400, width: "100%" }, 
+const  
       interesses= ['Ux', 'Ui', 'Front-end', 'Web'],
       idiomas= ['Português: Nativo', 'Inglês: Avançado', 'Japonês: Básico'],
       
@@ -77,11 +77,6 @@ export default class About extends React.PureComponent {
   };
   goToSlide2 = () => {
     this.slider.goToSlide(2);
-  };
-
- /*State com interesses*/ 
-  state = { 
-       
   };
 
   render() {

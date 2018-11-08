@@ -26,7 +26,7 @@ export default class Home extends Component{
                     </div>      
                     <div className="row ">
                         <div className="col-sm text-center">
-                            <img src={this.props.avatar} className=" rounded-circle img-thumbnail img-fluid center" width="300"/>
+                            <img src={this.props.avatar} className=" rounded-circle img-thumbnail img-fluid center" width="300" alt=""/>
                         </div>
                         <div className="col-md align-items-center">
                             <div className="card d-flex wow" data-wow-delay="0.3s">
@@ -42,7 +42,7 @@ export default class Home extends Component{
                                         </p>
                                     </div>
                                     <div className="text-center mt-4">
-                                        <a href={this.props.cv} target="_blank">
+                                        <a href={this.props.cv} target="_blank" rel="noopener noreferrer">
                                         <button className="btn" type="submit" >Download Currículo (PDF)</button>
                                         <hr className="mb-3 mt-4"/>
                                         </a>

@@ -3,8 +3,8 @@ import React, {Fragment} from 'react';
 const NavBar = (props) => {
     return (
         <Fragment>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-0 px-5 d-flex justify-content-between fixed-top" style={{  position: 'sticky', top: '0'}}>
-              <a className="navbar-brand  w-100" href="#">
+            <nav id="navId" className="navbar navbar-expand-lg navbar-dark bg-dark p-0 px-5 d-flex justify-content-between fixed-top" style={{  position: 'sticky', top: '0'}}>
+              <a className="navbar-brand  w-100" href="#navId">
                 <img src={props.logo} width="200"  className="d-inline-block align-top img-fluid" alt="Felipe Kamimura" />
               </a>
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

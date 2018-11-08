@@ -23,9 +23,6 @@ const dados={
         nome: "FELIPE KAMIMURA",
         sobre:  'Oi, eu sou Felipe Kamimura. Natural de Guarujá-SP, atualmente no 6º Período (de 8) de Engenharia Software na UTFPR em Cornélio Procópio(PR). Em busca de estágio em que possa me envolver na área de ux, design digital e front-end.'
     },
-    About: {
-        interesses: ['Ux', 'Ui', 'Front-end', 'Web']
-    },
     footer:{
         nome: "Felipe Kamimura",
         areas: "Ux/Ui, Front-end, Web, Mobile",
@@ -42,7 +39,7 @@ export default class App extends React.Component{
            <Fragment>
                <NavBar logo={Logo} />
                <Home {...dados.home} avatar={Profile} cv={cv}/>
-               <About1 {...dados.about}/>
+               <About1/>
                <Skill />
                <Blog />
                <Port/>
