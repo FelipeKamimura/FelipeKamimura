@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://felipekamimura.github.io/FelipeKamimura/",
+  "homepage":"https://FelipeKamimura.github.io/FelipeKamimura/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "prop-types": "^15.6.2",

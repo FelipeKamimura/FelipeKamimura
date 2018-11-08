@@ -19,7 +19,7 @@ export default class Info extends React.Component{
             <div className="container ">
                 <div className="row ">
                         <div className="col-md">
-                            <div className="myname text-center" style={{color: "#000"}}><br/>MAIS INFORMAÇÕES</div>
+                            <div className="myname text-center" style={{color: "#000"}}>MAIS INFORMAÇÕES</div>
                         </div>
                 </div>
                 <div className="row d-flex flex-wrap"> 

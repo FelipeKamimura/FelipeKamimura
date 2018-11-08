@@ -29,21 +29,21 @@ export default class Home extends Component{
                                     <div className="md-form">
                                         <i className="fa prefix white-text active"></i>
                                         <input type="text" id="form3" className="white-text form-control"/>
-                                        <label for="form3" className="active">Nome</label>
+                                        <label form="form3" className="active">Nome</label>
                                     </div>
                                     <div className="md-form">
                                         <i className="fa fa-envelope prefix white-text active"></i>
                                         <input type="email" id="form2" className="white-text form-control"/>
-                                        <label for="form2" className="active">Email</label>
+                                        <label form="form2" className="active">Email</label>
                                     </div>
                                     <div className="md-form">
                                         <i className="fa prefix white-text active"></i>
                                         <input type="text" id="form3" className="white-text form-control"/>
-                                        <label for="form3" className="active">Assunto</label>
+                                        <label form="form3" className="active">Assunto</label>
                                     </div>
                                     <div className="md-form">
-                                        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-                                        <label for="exampleTextarea">Mensagem</label>
+                                        <textarea className="form-control" rows="3"></textarea>
+                                        <label form="exampleTextarea">Mensagem</label>
                                     </div>
                                     
                                     <div className="text-center mt-4">

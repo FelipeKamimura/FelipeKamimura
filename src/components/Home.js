@@ -2,18 +2,6 @@ import React, {Component} from 'react';
 import './home.css';
 
 export default class Home extends Component{
-    homeCardReleases ={
-        name: 'Felipe Kamimura',
-        text: 'Manage releases',
-        action: () => alert('releases Clicked')
-    }
-
-    homeCardSprints ={
-        title: 'Sprints',
-        text: 'Manage Sprints',
-        action: () => alert('Sprints Clicked')
-    }
-
     render(){
 
         return(

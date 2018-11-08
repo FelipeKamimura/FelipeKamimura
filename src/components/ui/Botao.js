@@ -7,8 +7,8 @@ export default class Botao extends React.Component{
     }
     render(){
         return(
-                /*<div className="btn btn-primary" onClick={this.handleClick.bind(this)}>{this.props.text}</div>*/
-                <span/>
+                <div className="btn btn-primary" onClick={this.handleClick.bind(this)}>{this.props.text}</div>
+                
         );
     }
 }
