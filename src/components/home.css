@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.bckImg{
+    background: linear-gradient(rgba(34, 34, 59, 0.9), rgba(34, 34, 59, 0.5)), url('../assets/photos/aboutMe.jpg');
+    background-repeat: no-repeat;
+    background-size: 'cover';
+    opacity: 4; 
+}
+
+html,
+body,
+.view {
+  height: 100%;
+  display: block;
+  background: rgb(97, 103, 116);
+}
+ 
+@media screen and (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+
+  .myname{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+  }
+
+  .myname{
+    font-size: 3rem;
+  }
+
+}
+
+.rgba-gradient {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(85, 177, 252, 0.7) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(85, 177, 252, 0.7) 100%));
+  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(85, 177, 252, 0.7) 100%);
+}
+
+.card {
+  background-color: rgba(249, 252, 255, 0.6);
+  display: block;
+}
+
+.md-form label {
+  color: #ffffff;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+.pdtop{
+  padding: 50px;
+}
+
+.myname{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height:0.85;
+  color: #ffffff;
+  padding-bottom: 35px;
+}

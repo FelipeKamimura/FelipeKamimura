@@ -1,0 +1,12 @@
+footer{
+    background-color: #262A33;
+    font: #c0c0c0;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer{
+    font-weight: bold;
+    font-size: 1.2rem;
+}

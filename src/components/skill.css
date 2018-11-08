@@ -1,0 +1,17 @@
+.bckImgSkill{
+    background: linear-gradient(rgba(34, 34, 59, 0.9), rgba(34, 34, 59, 0.5)), url('../assets/photos/skills.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 'cover';
+    opacity: 4; 
+}
+
+.pdtop{
+    padding: 70px;
+  }
+  .pdtopSkills{
+    padding: 120px;
+  }
+.fontBadge{
+    font-size: 13px;
+}
